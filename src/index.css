@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.table-container {
+  display: flex;
+  flex-grow: 1;
+  /* justify-content: center; */
+}
+body {
+  overflow: hidden;
+  margin: 8px;
+}
+.table-wrapper {
+  width: 70%;
+}
+.search-input {
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.search {
+  display: flex;
+}
+.js-plotly-plot {
+  width: 30%;
+}
+.my-table {
+  height: 90vh;
+}
